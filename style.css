@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    height: 766px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background: #1B83E2;
+    height: 66px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #777777;
+}
+
+select {
+    display: block;
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    appearance: none;
+}
+
+option {
+    width: 104px;
+    height: 18px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.valor {
+    display: block;
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    padding-left: 5px;
+}
+
+.button {
+    width: 327px;
+    height: 48px;
+    background: #1B83E2;
+    border-radius: 25px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4F4F4;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+.container2 {
+    text-align: center;
+    padding: 8px;
+}
+
+.currency-name {
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value {
+    color: #1B83E2;
+    font-weight: 700;
+    font-size: 20px;
+}
+.arrow-img{
+    display: block;
+    margin: 15px auto;
+}
