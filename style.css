@@ -24,6 +24,7 @@ body {
 header {
     background: #1B83E2;
     height: 66px;
+    border-radius: 4px 4px 0 0;
 }
 
 header h1 {
