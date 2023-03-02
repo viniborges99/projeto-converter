@@ -10,7 +10,6 @@ const convertValues = () => {
     const valorReal = document.getElementById('valor').value
     const realValueText = document.getElementById('real-value')
     const dolarValueText = document.getElementById('dolar-value')
-
     
     realValueText.innerHTML = new Intl.NumberFormat("pt-BR",{
         style:"currency",
