@@ -1,11 +1,12 @@
 
 const button = document.querySelector('#button')
-const select = document.getElementById('currency-select')
+const select = document.getElementById('convert-to')
 
 
 const dolar = 5.2
 const euro = 5.53
 const bitcoin =116281.25
+const real = 1
 
 const convertValues = () => {
     const valorReal = document.getElementById('valor').value
@@ -59,3 +60,6 @@ const changeCurrency=()=>{
 
 button.addEventListener('click', convertValues)
 select.addEventListener('change', changeCurrency)
+
+
+// fazer a converção ao contrario podendo mecher no real
