@@ -6,7 +6,7 @@ const select = document.getElementById('convert-to')
 const dolar = 5.2
 const euro = 5.53
 const bitcoin =116281.25
-const real = 1
+
 
 const convertValues = () => {
     const valorReal = document.getElementById('valor').value
